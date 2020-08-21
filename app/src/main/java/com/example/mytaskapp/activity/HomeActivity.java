@@ -39,13 +39,13 @@ import java.util.Objects;
 
 public class HomeActivity extends AppCompatActivity {
 
-    LinearLayout mainScreen,mainScreen2,mainScreen3,txt_register;
+    LinearLayout mainScreen,mainScreen2,mainScreen3;
     TextView txt_single,txt_muliple,txt_container,txt_trailer,txt_open_body,txt_next;
     EditText edt_name,edt_vch_make,edt_vch_model,edt_vch_type,edt_tonnage;
 
     //mainscreen2
     EditText edt_engineNo,edt_chasisNo;
-    TextView permit_upload,insurance_upload,register_upload,pollution_upload,txt_next1;
+    TextView permit_upload,insurance_upload,register_upload,pollution_upload,txt_next1,txt_register;
 
     //mainscreen3
     EditText edt_battery1No,edt_battery2No;

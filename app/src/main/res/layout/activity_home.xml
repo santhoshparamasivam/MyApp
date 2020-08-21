@@ -645,7 +645,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="15dp"
-        android:id="@+id/txt_register"
+
         android:padding="10dp"
         android:layout_above="@+id/bottom"
         android:orientation="vertical">
@@ -655,6 +655,7 @@
             android:layout_marginTop="5sp"
             android:background="@drawable/edt_bg"
             android:padding="5sp"
+            android:id="@+id/txt_register"
             android:text="Register"
             android:textColor="@color/bodyColor"
             android:gravity="center"
